@@ -26,9 +26,9 @@ const connect = function() {
 
 
   conn.on('data', (data) => {
-  console.log("Server Wrote:");
-  console.log(data);
-})
+    console.log("Server Wrote:");
+    console.log(data);
+  })
 
   return conn;
 }
