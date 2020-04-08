@@ -47,6 +47,11 @@ const handleUserInput = function (key) {
     connection.write(`Move: right`)
   };
 
+  if (key === 'o') {
+    console.log('oi');
+    connection.write(`Say: Oi!`)
+  };
+
 };
 
 //setupInput(connection);
